@@ -4,7 +4,7 @@ import 'package:flutter/src/widgets/placeholder.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:notepad_frontend/api/note/note_api.dart';
 import 'package:notepad_frontend/models/user_cubit.dart';
-import 'lib/models/user_models.dart';
+import 'package:notepad_frontend/models/user_models.dart';
 import 'package:notepad_frontend/pages/home/home.dart';
 
 class CreateNoteScreen extends StatefulWidget {

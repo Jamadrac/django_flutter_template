@@ -2,7 +2,7 @@ import 'dart:convert';
 
 import 'package:hive_flutter/adapters.dart';
 import 'package:http/http.dart' as http;
-import 'lib/models/user_models.dart';
+import 'package:notepad_frontend/models/user_models.dart';
 
 import '../../constants.dart';
 

@@ -158,8 +158,8 @@ EMAIL_BACKEND='django.core.mail.backends.smtp.EmailBackend'
 EMAIL_HOST = 'smtp.gmail.com'
 EMAIL_USE_TLS = True
 EMAIL_PORT = 587
-EMAIL_HOST_USER = "youremail@gmail.com" # sender email
-EMAIL_HOST_PASSWORD = "yourapppassword" #password
+EMAIL_HOST_USER = "zambus2gogog@gmail.com" # sender email
+EMAIL_HOST_PASSWORD = "vcwq mbig ulzk gezw" #password
 ACCOUNT_EMAIL_VERIFICATION = 'mandatory'
 ACCOUNT_LOGIN_ON_EMAIL_CONFIRMATION=True
 
@@ -174,8 +174,8 @@ ACCOUNT_UNIQUE_EMAIL = True
 ACCOUNT_USERNAME_REQUIRED = False
 ACCOUNT_USER_MODEL_USERNAME_FIELD = None
 USERNAME_REQUIRED=False
-ACCOUNT_EMAIL_VERIFICATION = 'mandatory'
-ACCOUNT_CONFIRM_EMAIL_ON_GET = False
+# ACCOUNT_EMAIL_VERIFICATION = 'mandatory'
+# ACCOUNT_CONFIRM_EMAIL_ON_GET = False
 ACCOUNT_USER_MODEL_USERNAME_FIELD=None
 
 REST_AUTH_SERIALIZERS={
