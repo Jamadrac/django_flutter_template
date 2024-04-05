@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:notepad_frontend/main.dart';
-import 'package:notepad_frontend/models/user_models.dart';
+import 'lib/models/user_models.dart';
 import 'package:notepad_frontend/pages/home/home.dart';
 
 import '../api/auth/auth_api.dart';

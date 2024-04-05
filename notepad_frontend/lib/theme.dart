@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:google_fonts/google_fonts.dart';
+
+// Define your custom font family
+const String customFontFamily = 'CustomFont';
 
 double defaultMargin = 30.0;
 
@@ -13,17 +15,25 @@ Color kStrokeButtonColor = Color(0xffE5E5E5);
 Color bgColor = Color(0xff2eabff);
 
 // TEXT STYLES
-TextStyle blackTextStyle = GoogleFonts.mulish(
+TextStyle blackTextStyle = TextStyle(
   color: kBlackColor,
-);
-TextStyle whiteTextStyle = GoogleFonts.mulish(
-  color: kWhiteColor,
-);
-TextStyle blueTextStyle = GoogleFonts.mulish(
-  color: kBlueColor,
+  fontFamily: customFontFamily,
+  fontWeight: FontWeight.normal, // or specify your desired font weight
 );
 
-// FONT WEIGHTS
+TextStyle whiteTextStyle = TextStyle(
+  color: kWhiteColor,
+  fontFamily: customFontFamily,
+  fontWeight: FontWeight.normal, // or specify your desired font weight
+);
+
+TextStyle blueTextStyle = TextStyle(
+  color: kBlueColor,
+  fontFamily: customFontFamily,
+  fontWeight: FontWeight.normal, // or specify your desired font weight
+);
+
+// FONT WEIGHTS (if needed)
 FontWeight thin = FontWeight.w100;
 FontWeight extraLight = FontWeight.w200;
 FontWeight light = FontWeight.w300;

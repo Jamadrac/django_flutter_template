@@ -6,7 +6,7 @@ import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:notepad_frontend/api/auth/auth_api.dart';
 import 'package:notepad_frontend/api/note/note_api.dart';
 import 'package:notepad_frontend/models/note_model.dart';
-import 'package:notepad_frontend/models/user_models.dart';
+import 'lib/models/user_models.dart';
 import 'package:notepad_frontend/pages/home/create_note_scren.dart';
 import 'package:notepad_frontend/pages/home/update_note_screen.dart';
 import 'package:notepad_frontend/pages/login_page.dart';

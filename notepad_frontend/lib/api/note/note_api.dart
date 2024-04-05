@@ -3,7 +3,7 @@ import 'dart:convert';
 import 'package:notepad_frontend/constants.dart';
 import 'package:http/http.dart' as http;
 import 'package:notepad_frontend/models/note_model.dart';
-import 'package:notepad_frontend/models/user_models.dart';
+import 'lib/models/user_models.dart';
 
 const noteEndpoint = "$baseUrl/note/";
 
